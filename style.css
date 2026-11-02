@@ -1,5 +1,4 @@
 body{
-    background-color: #5e3e18;
     margin: 0;
     padding: 0;
 }
@@ -61,10 +60,28 @@ section {
 }
 
 .hero {
+    position: relative;
     text-align: center;
     padding: 5rem 1rem;
-    background: url("./img/fish.png") rgba(255, 255, 255, .2);
     font-family: Impact;
+    overflow: hidden;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/fish.png");
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.hero > *{
+    position: relative;
+    z-index: 1;
 }
 
 .hero h1 {
