@@ -1,0 +1,202 @@
+body{
+    background-color: #5e3e18;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 10%;
+    background-color:  #5e3e18;
+    gap: 0.8rem;
+    position: sticky;   
+    top: 0;
+    z-index: 100;
+}
+
+header img {
+    width: 40px;         
+    height: 40px;
+    object-fit: cover;
+}
+
+header i{
+    font-size: 1.2rem;
+    font-family: Impact;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+nav{
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    font-family: Impact;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #af5c00;
+}
+
+section {
+  padding: 4rem 10%;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #ffffff;
+    font-family: Impact;
+}
+
+.hero h1 {
+    color:#5e3e18;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero img {
+    width: 120px;         
+    height: 120px;
+    object-fit: cover;
+    border: #8e6231 solid 2px;
+}
+
+.hero hr{
+    width: 20rem;
+    border: none;
+    height: 2px;
+    background-color:#5e3e18;
+    margin: 1rem auto;
+}
+
+.hero p{
+    font-size: 1.1rem;
+    color: #af5c00;
+    margin-bottom: 2rem;
+}
+
+.portofolio {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #8e6231;
+    font-family: Impact;
+}
+
+.portofolio h2{
+    color:#5e3e18;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.portofolio h3{
+    font-size: 1.5rem;
+    color:#ffffff;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.portofolio h4{
+    font-size: 1.5rem;
+    color:#5e3e18;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.portofolio table{
+    margin: 0 auto;
+    border-spacing: 1.5rem;
+    border-collapse: separate;
+}
+
+.portofolio table td{
+    padding: 1rem;
+    vertical-align: top;
+    text-align: center;
+    width: 220px;
+}
+
+.portofolio-table-img{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.portofolio img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.portofolio strong{
+    color: #ffffff;
+    font-family: Impact;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+}
+
+.game {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #8e6231;
+    font-family: Impact;
+}
+
+.game h2{
+    color:#5e3e18;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.game iframe{
+    width: 990px;
+    height: 660px;
+    border: #5e3e18 solid 2px;
+}
+
+.about {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(180deg, #8e6231 0%, #5e3e18 100%);
+    font-family: Impact;
+}
+
+.about h2{
+    text-align: center;
+    color:#5e3e18;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p{
+    text-align: center;
+    color:#ffffff;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #5e3e18;
+  color:#af5c00;
+  font-size: 0.9rem;
+}
+
